@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.bferrari.musicapp.albums.AlbumsActivity">
     <item
-        android:id="@+id/play_action"
+        android:id="@+id/album_action"
         android:orderInCategory="100"
-        android:title="Player"
+        android:title="Albums"
         app:showAsAction="always" />
+
 </menu>

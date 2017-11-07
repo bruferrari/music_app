@@ -1,5 +1,6 @@
 package com.bferrari.musicapp.albums;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 
 import com.bferrari.musicapp.R;
 import com.bferrari.musicapp.model.Album;
+import com.bferrari.musicapp.player.PlayerActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,7 +59,8 @@ public class AlbumsActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.play_action) {
+            startActivity(new Intent(this, PlayerActivity.class));
             return true;
         }
 

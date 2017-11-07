@@ -1,9 +1,19 @@
 
-k
-;app/src/main/java/com/bferrari/musicapp/AlbumsActivity.java,f/8/f8e3cfae4582b18918659f6456a55aecbbab8ddc
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-i
-9app/src/main/java/com/bferrari/musicapp/AlbumAdapter.java,9/b/9bb97c76caf105132cb7085d8db97c8df716f8be
+h
+8app/src/main/java/com/bferrari/musicapp/model/Album.java,b/0/b044f63b6243e9c94d8b2520448e51d01a5cc765
+p
+@app/src/main/java/com/bferrari/musicapp/albums/AlbumAdapter.java,3/4/3409a589a52191c4c63c518913b9478f26f04697
+r
+Bapp/src/main/java/com/bferrari/musicapp/tracks/TracksActivity.java,0/e/0e867282c1b9360dd1ab6af31cac5db09c4ae42c
+r
+Bapp/src/main/java/com/bferrari/musicapp/albums/AlbumsActivity.java,4/3/43f419aa4ede7df5233cce41e6923f9e1cf7c366
+h
+8app/src/main/java/com/bferrari/musicapp/model/Track.java,1/9/19f348d4b91824fc15b3ad440b33f9bb77acff4d
+p
+@app/src/main/java/com/bferrari/musicapp/tracks/TrackAdapter.java,3/6/36c4937590f8f75a30c6f99ee30ccadf590092f8
+r
+Bapp/src/main/java/com/bferrari/musicapp/player/PlayerActivity.java,4/9/49137cf713d9e1a434cb6cee060c047ccafb7dd3
